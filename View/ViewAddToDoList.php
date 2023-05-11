@@ -1,8 +1,8 @@
 <?php
 
-require_once "../Model/ToDoList.php";
-require_once "../Helper/Input.php";
-require_once "../BusinessLogic/AddToDoList.php";
+require_once __DIR__ . "/../Model/ToDoList.php";
+require_once __DIR__ . "/../Helper/Input.php";
+require_once __DIR__ . "/../BusinessLogic/AddToDoList.php";
 
 function viewAddToDoList()
 {
